@@ -1,0 +1,17 @@
+.mainCookie {
+    animation: rotation 8s infinite linear;
+    width: 15%;
+}
+.mainCookie:hover{
+    width: 16%;
+    transition: 0.2s;
+}
+  
+@keyframes rotation {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(359deg);
+}
+}
