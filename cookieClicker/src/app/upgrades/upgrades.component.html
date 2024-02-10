@@ -1,0 +1,7 @@
+<section>
+    <button (click)="addOven()">Buy cookies!</button>
+    <p>Oven Count: {{ovenCount}}</p>
+    <app-oven
+    *ngFor="let i of tempArr; let index = index"
+    [ovenCount]="index"></app-oven>
+</section>

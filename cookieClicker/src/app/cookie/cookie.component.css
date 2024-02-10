@@ -1,6 +1,7 @@
 .mainCookie {
     animation: rotation 8s infinite linear;
     width: 15%;
+    transition: 0.2s;
 }
 .mainCookie:hover{
     width: 16%;
